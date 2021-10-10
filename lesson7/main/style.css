@@ -15,7 +15,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, p {
+h1, h2, p {
     text-align: center;
 
     margin: 10px 0;
@@ -24,7 +24,11 @@ h1, h2, h3, p {
 h2 {
     text-align: left;
     font-weight: bold;
-    margin-left: 20px;
+    margin: 0 0 0 20px;
+}
+
+h3 {
+    margin: 0 10px;
 }
 
 .header {
@@ -98,6 +102,16 @@ h2 {
     border-radius: 8px;
 
     box-shadow: 4px 6px 25px #d0d0d0;
+}
+
+.nav-lesson-head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-lesson-head i {
+    font-size: 18px;
 }
 
 .nav-lesson:hover {
