@@ -4,7 +4,7 @@
 
 ## Lesson Plan
 
-[Here](https://kfund.github.io/web-front-end/) you can find lesson plan for WEB Front-End course.
+[Here](https://kfund.github.io/web-front-end/) you can find lesson plan for WEB Front-End course which is based on this repo.
 <br>
 Inside every lesson you can find previous version of main page.
 
