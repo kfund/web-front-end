@@ -419,7 +419,6 @@ input:checked::before {
        width: 15px;
     }
  }
- 
 
 @media screen and (max-width: 992px) {
     .contact-me {
@@ -430,6 +429,10 @@ input:checked::before {
     input::before {
         top: 20px;
         left: 80%;
+    }
+
+    .saber-card {
+        bottom: -25px;
     }
 }
 
@@ -445,6 +448,5 @@ input:checked::before {
 
     .saber-card {
         left: -5px;
-        bottom: -25px;
     }
 }
