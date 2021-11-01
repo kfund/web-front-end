@@ -70,6 +70,10 @@ input {
 input::before {
     content: "";
     position: fixed;
+    background: url("./vader.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     top: 40px;
     left: 70%;
     width: 50px;
@@ -422,17 +426,17 @@ input:checked::before {
         width: 50px;
         height: 50px;
     }
+
+    input::before {
+        top: 20px;
+        left: 80%;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .contact-me {
         top: 80vh;
         right: 5px;
-    }
-
-    input::before {
-        top: 20px;
-        left: 80%;
     }
 
     .light {
